@@ -16,14 +16,19 @@
     <meta name="theme-color" content="#ffffff">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@600;700&family=Roboto&family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
 
     <link href="css/main.css" rel="stylesheet"/>
 </head>
 <body class="">
 <main>
     <div class="container">
-        <a href="" class="back">Вернуться к начинкам</a>
+        <a href="" class="back">
+            Вернуться к начинкам
+            <svg class="back__arrow">
+                <use xlink:href="img/sprite.svg#icon-arrow-right"></use>
+            </svg>
+        </a>
         <div class="filling">
             <img src="img/item_pic.jpg" alt="" class="filling__pic">
             <div class="filling__desc">
@@ -31,32 +36,75 @@
                 <p>Шоколад в четырёх разных текстурах: влажный насыщенный бисквит на шоколаде, хрустящая вафля в темном шоколаде, шелковистый ванильный ганаш на белом и мусс на молочном и темном шоколаде не оставят равнодушным ни одного шокоголика!</p>
                 <h2>Кислинка</h2>
                 <ul class="rate">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>
+                        <svg>
+                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                        </svg>
+                    </li>
+                    <li>
+                        <svg>
+                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                        </svg>
+                    </li>
+                    <li>
+                        <svg>
+                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                        </svg>
+                    </li>
+                    <li>
+                        <svg>
+                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                        </svg>
+                    </li>
+                    <li>
+                        <svg>
+                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                        </svg>
+                    </li>
                 </ul>
+                <h2>Сладость</h2>
                 <ul class="rate">
-                    <li class="rate__full"></li>
-                    <li class="rate__full"></li>
-                    <li class="rate__full"></li>
-                    <li></li>
-                    <li></li>
+                    <li class="rate__full">
+                        <svg>
+                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                        </svg>
+                    </li>
+                    <li class="rate__full">
+                        <svg>
+                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                        </svg>
+                    </li>
+                    <li class="rate__full">
+                        <svg>
+                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                        </svg>
+                    </li>
+                    <li>
+                        <svg>
+                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                        </svg>
+                    </li>
+                    <li>
+                        <svg>
+                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                        </svg>
+                    </li>
                 </ul>
             </div>
-            <h2>КБЖУ</h2>
-            <p>Пищевая ценность (на 100 г): жиры –26,32 г, белки – 6,03 г, углеводы – 21,3 г. Энергетическая ценность: 350 ккал (1465 кДж).</p>
-            <h2>Состав: </h2>
-            <p>Сливки 33%, молоко 3,5%, молочный шоколад 34%, горький шоколад 72%, белый шоколад 29%, яйцо куриное, сахар, масло сливочное 82,5%, вафельная крошка,   миндальная мука, инвертный сахар, пшеничная мука, масло растительное рафинированное,  какао-масло, какао-порошок, желатин, сироп глюкозы, ванильная паста, разрыхлитель</p>
-            <h2>Условия хранения и дегустации</h2>
-            <p>Температура хранения и дегустации +4..+6 градусов. Срок годности 72 часа.</p>
         </div>
+        <h2>КБЖУ</h2>
+        <p>Пищевая ценность (на 100 г): жиры –26,32 г, белки – 6,03 г, углеводы – 21,3 г. Энергетическая ценность: 350 ккал (1465 кДж).</p>
+        <h2>Состав: </h2>
+        <p>Сливки 33%, молоко 3,5%, молочный шоколад 34%, горький шоколад 72%, белый шоколад 29%, яйцо куриное, сахар, масло сливочное 82,5%, вафельная крошка,   миндальная мука, инвертный сахар, пшеничная мука, масло растительное рафинированное,  какао-масло, какао-порошок, желатин, сироп глюкозы, ванильная паста, разрыхлитель</p>
+        <h2>Условия хранения и дегустации</h2>
+        <p>Температура хранения и дегустации +4..+6 градусов. Срок годности 72 часа.</p>
     </div>
 </main>
 <footer class="footer">
-    <div class="container">
-        <a href="" # class="footer__logo"></a>
+    <div class="container footer__container">
+        <a href="" # class="footer__logo">
+            <img src="img/logo.png" alt="">
+        </a>
         <nav class="footer__nav">
             <div class="footer__nav-col">
                 <h4 class="footer__title">Покупателям</h4>
@@ -82,10 +130,19 @@
                 <b>Адрес:</b>&nbsp;Москва, ул. Нагатинская, 16
             </p>
             <div class="soc">
-                <a href=""></a>
+                <a href="">
+                    <svg>
+                        <use xlink:href="img/sprite.svg#icon-telega"></use>
+                    </svg>
+                </a>
+                <a href="">
+                    <svg>
+                        <use xlink:href="img/sprite.svg#icon-whatsapp"></use>
+                    </svg>
+                </a>
             </div>
-            <p>&copy;&nbsp;2022 E.Boronovskaya</p>
-            <p>Задизайнено&nbsp;<a target="_blank" href="web-off.ru">web-off.ru</a></p>
+            <p class="footer__date" >&copy;&nbsp;2022 E.Boronovskaya</p>
+            <p>Задизайнено&nbsp;<a target="_blank" class="footer__design" href="web-off.ru">web-off.ru</a></p>
         </div>
     </div>
 
