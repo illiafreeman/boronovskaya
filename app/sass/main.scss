@@ -36,6 +36,9 @@ h2{
     font-size: 28px;
     line-height: 38px;
     margin: 40px 0 20px;
+    &:first-child{
+        margin-top: 0;
+    }
 }
 h3{
     font-weight: 500;
@@ -213,6 +216,7 @@ main{
 }
 .filling{
     display: flex;
+    align-items: flex-start;
     &__pic{
         max-width: 580px;
         margin-right: 100px;
@@ -369,6 +373,9 @@ main{
             fill: #9CB72C;
             width: 30px;
             height: 30px;
+        }
+        &:hover{
+            transform: scale(1.3);
         }
     }
 }
