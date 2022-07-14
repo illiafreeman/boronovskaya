@@ -1,0 +1,54 @@
+$transition: all 0.2s ease-in-out;
+$transition05: all 0.5s ease-in-out;
+$font: 'Rubik', sans-serif;
+$font-lang: 'Montserrat', sans-serif;
+$font-opensans: 'Open Sans', sans-serif;
+$font-roboto: 'Roboto', sans-serif;
+
+$headings: #4B85C6;
+$darkgrey: #74747C;
+$text-accent: #182655;
+$text-alt: #66666F;
+$text: #121222;
+
+
+%flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+%flex-c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%nolink{
+    &:before{
+        display: none;
+    }
+}
+
+%after{
+    content: '';
+    display: block;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

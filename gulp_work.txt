@@ -1,0 +1,28 @@
+npm i gulp -g // gulp надо всегда ставить глобально
+npm init // creating package.json
+npm i gulp --save-dev // save dependencies into package.json
+npm i gulp-sass --save-dev // sass
+npm i browser-sync --save-dev // livereload
+npm i -g bower // bower обязательно глабально
+
+bower i jquery bootstrap --save // save чтобы записать в bower.json
+bower uninstall jquery bootstrap --save // save чтобы записать в bower.json
+
+npm i gulp-concat --save-dev // concat
+npm i gulp-cssnano gulp-rename --save-dev // работа с css
+npm i del --save-dev // для очистки директории dist
+npm i gulp-imagemin imagemin-pngquant --save-dev  // обрабатываем изображения
+npm i gulp-cache --save-dev  // кэш для изображений
+npm i gulp-autoprefixer --save-dev // автопрефиксы
+
+
+//
+
+npm i 
+bower i
+
+
+
+324*352 0.92
+285*311 0.92
+
