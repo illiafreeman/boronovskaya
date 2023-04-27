@@ -1,3 +1,17 @@
 .botiga-offcanvas-menu .botiga-dropdown ul li {
   text-align: left;
+}
+
+.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-has-children.menu-item-47 .dropdown-symbol {
+  display: inline-block;
+  pointer-events: none;
+}
+
+.botiga-offcanvas-menu .botiga-dropdown .sub-menu {
+  padding: 0 0 10px 30px;
+  font-size: 14px;
+}
+
+.botiga-offcanvas-menu.toggled.sub .menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-has-children.menu-item-47 .dropdown-symbol {
+  transform: rotate(180deg);
 }/*# sourceMappingURL=menu.css.map */
