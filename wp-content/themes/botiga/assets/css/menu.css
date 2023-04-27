@@ -1,24 +1,25 @@
-.botiga-offcanvas-menu .botiga-dropdown ul li {
-  text-align: left;
-}
-
-.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-has-children.menu-item-47 .dropdown-symbol {
-  display: inline-block;
-  pointer-events: none;
-  position: absolute;
-  top: 8px;
-  right: 0;
-}
-
-.botiga-offcanvas-menu .botiga-dropdown .sub-menu {
-  padding: 0 0 0 30px;
-  font-size: 13px;
-}
-
-.botiga-offcanvas-menu.toggled.sub .menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-has-children.menu-item-47 .dropdown-symbol {
-  transform: rotate(180deg);
-}
-
-.botiga-offcanvas-menu .botiga-dropdown .menu-item-has-children a {
-  width: 100%;
+@media (max-width: 1024px) {
+  .botiga-offcanvas-menu .botiga-dropdown ul li {
+    text-align: left;
+  }
+  .menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-has-children.menu-item-47 .dropdown-symbol {
+    display: inline-block;
+    pointer-events: none;
+    position: absolute;
+    top: 8px;
+    right: 0;
+  }
+  .botiga-offcanvas-menu .botiga-dropdown .sub-menu {
+    padding: 0 0 0 30px;
+    font-size: 13px;
+  }
+  .botiga-offcanvas-menu.toggled.sub .menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-has-children.menu-item-47 .dropdown-symbol {
+    transform: rotate(180deg);
+  }
+  .botiga-offcanvas-menu .botiga-dropdown .menu-item-has-children a {
+    width: 100%;
+  }
+  a:hover, a:focus, a:active {
+    color: #212121;
+  }
 }/*# sourceMappingURL=menu.css.map */
