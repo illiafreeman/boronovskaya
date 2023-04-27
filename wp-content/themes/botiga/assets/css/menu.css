@@ -5,6 +5,9 @@
 .menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-has-children.menu-item-47 .dropdown-symbol {
   display: inline-block;
   pointer-events: none;
+  position: absolute;
+  top: 8px;
+  right: 0;
 }
 
 .botiga-offcanvas-menu .botiga-dropdown .sub-menu {
@@ -14,4 +17,8 @@
 
 .botiga-offcanvas-menu.toggled.sub .menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-has-children.menu-item-47 .dropdown-symbol {
   transform: rotate(180deg);
+}
+
+.botiga-offcanvas-menu .botiga-dropdown .menu-item-has-children a {
+  width: 100%;
 }/*# sourceMappingURL=menu.css.map */
