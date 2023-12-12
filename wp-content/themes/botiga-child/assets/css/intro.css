@@ -21,7 +21,6 @@
   font-weight: 400;
   color: #FFF;
   text-transform: uppercase;
-  text-shadow: 1px 1px 7px #000;
 }
 .intro .slick-slide div .intro__desc {
   width: 780px;
@@ -32,7 +31,6 @@
   color: #FFF;
   padding: 0;
   margin: 26px 0 0;
-  text-shadow: 1px 1px 7px #000;
 }
 .intro .slick-slide img {
   width: 100%;
