@@ -18,7 +18,9 @@ jQuery(document).ready(function () {
                     slidesToScroll: 1,
                     infinite: true,
                     arrows: false,
-                    dots: true
+                    dots: true,
+                    autoplay: true,
+                    autoplaySpeed: 4000
                 }
             },
             {
@@ -29,6 +31,8 @@ jQuery(document).ready(function () {
                     infinite: true,
                     arrows: false,
                     dots: true,
+                    autoplay: true,
+                    autoplaySpeed: 4000
                 }
             },
         ]
