@@ -8,8 +8,8 @@ jQuery(document).ready(function () {
         arrows: true,
         dots: true,
         adaptiveHeight: false,
-        // autoplay: true,
-        // autoplaySpeed: 4000,
+        autoplay: true,
+        autoplaySpeed: 4000,
         responsive: [
             {
                 breakpoint: 766,
