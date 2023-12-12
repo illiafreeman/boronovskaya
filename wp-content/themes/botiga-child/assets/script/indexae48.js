@@ -6,7 +6,7 @@ jQuery(document).ready(function () {
         slidesToScroll: 1,
         fade: true,
         arrows: true,
-        dots: false,
+        dots: true,
         adaptiveHeight: false,
         // autoplay: true,
         // autoplaySpeed: 4000,
@@ -14,7 +14,7 @@ jQuery(document).ready(function () {
             {
                 breakpoint: 766,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 1,
                     slidesToScroll: 1,
                     infinite: true,
                     arrows: false,

@@ -3,19 +3,36 @@
   position: relative;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 .intro .slick-slide div {
-  width: 100%;
-  max-width: 1587px;
-  margin: 0 auto;
+  padding: 0 9.1%;
   position: relative;
   z-index: 100;
 }
 .intro .slick-slide div .intro__title {
   width: 780px;
+  padding: 0;
+  margin: 0;
+  max-width: 782px;
+  font-family: "New-YorkerC", serif;
+  font-size: 56px;
+  line-height: 68px;
+  font-weight: 400;
+  color: #FFF;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 7px #000;
 }
-.intro .slick-slide div .intro__text {
+.intro .slick-slide div .intro__desc {
   width: 780px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #FFF;
+  padding: 0;
+  margin: 26px 0 0;
+  text-shadow: 1px 1px 7px #000;
 }
 .intro .slick-slide img {
   width: 100%;
@@ -23,4 +40,36 @@
   -o-object-fit: cover;
      object-fit: cover;
   position: absolute;
+}
+
+@media screen and (max-width: 991px) {
+  .intro .slick-slide div .intro__title, .intro .slick-slide div .intro__desc {
+    max-width: 90%;
+    line-height: 1.4;
+  }
+  .intro .slick-slide div .intro__title {
+    font-size: 42px;
+  }
+  .intro .slick-slide img {
+    right: 0;
+    width: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .intro .slick-slide {
+    height: 360px !important;
+  }
+  .intro .slick-slide div .intro__title, .intro .slick-slide div .intro__desc {
+    max-width: 90%;
+    line-height: 1.4;
+  }
+  .intro .slick-slide div .intro__title {
+    font-size: 30px;
+  }
+  .intro .slick-slide div .intro__desc {
+    font-size: 16px;
+  }
+  .intro .slick-slide img {
+    right: 0;
+  }
 }/*# sourceMappingURL=intro.css.map */
