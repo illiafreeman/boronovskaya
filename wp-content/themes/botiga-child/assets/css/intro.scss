@@ -1,0 +1,28 @@
+.intro {
+    .slick-slide{
+        height: 500px !important;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        div{
+            width: 100%;
+            max-width: 1587px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 100;
+            .intro__title{
+                width: 780px;
+            }
+            .intro__text{
+                width: 780px;
+            }
+        }
+        
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: absolute;
+        }
+    }
+}
